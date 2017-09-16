@@ -44,6 +44,8 @@ public class Fibonacci {
 
         // Assertion:
         // 1) n is an integer input, n>=0.
+        
+        // The Bound Function is: n
 
         if (n == 0)
         {
