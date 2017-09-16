@@ -15,7 +15,7 @@ public class FibonacciUpgraded {
      * non-negative integer input n 3) reads the typed in number n
      * value 4) calls the method fib to compute the value of the n-th
      * Fibonacci number 5) extracts the n-th Fibonacci number from
-     * the returned by fib method array 6) prints out the value of
+     * the returned by the fib method array 6) prints out the value of
      * the n-th Fibonacci number to the screen.
      * @param args - is used in the main method declaration
      */
@@ -90,7 +90,7 @@ public class FibonacciUpgraded {
             //      By the definition
             //      array[0] =  Fn      = F(n-2) + F(n-1)
             //      array[1] =  F(n+1)  = F(n-1) + Fn
-            //      Exception is the case n=1, Fn = 1, F(n+1) = 0 + (1 = Fn)
+            //      Exception is the case n=1, Fn = 1, F(n+1) = 0 + (1 = Fn) = 1
         }
 
         // Assertion:
@@ -101,6 +101,7 @@ public class FibonacciUpgraded {
         //          else array returned = {F(n), F(n+1)}, such that
         //          array[0] =  Fn      = F(n-2) + F(n-1)
         //          array[1] =  F(n+1)  = F(n-1) + Fn
+        //          Exception is the case n=1, Fn = 1, F(n+1) = 0 + (1 = Fn) = 1
     }
 
 }
